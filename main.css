@@ -1,0 +1,55 @@
+#weather_app{
+    background-color: blanchedalmond;
+    margin: 20px auto 20px auto;
+    width: 60%;
+}
+
+.weather_information{
+    background-color: blueviolet;
+    margin: 50px auto;
+}
+.current_city{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 5px 5px 5px 50px;
+}
+
+#temp, #wind, #hour{
+    margin: 0px auto;
+    float: left;
+    width: 20%;
+    padding: 50px;
+    background-color: aquamarine;
+}
+#wind_icon{
+    width: 20%;
+    height: 30%;
+}
+
+#footer{
+    clear: both;
+    margin-top: 200px;
+}
+.city_buttons{
+    margin: 5px auto 5px auto;
+    text-align: center;
+}
+button{
+    height: 50px;
+    width: 25%;
+    margin: 30px;
+    border-radius: 15px;
+    border:1px solid black;
+    color: blue;
+}
+button:hover{
+    background-color: azure;
+    color:lightblue;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+button:active{
+    background-color: aqua;
+    border: 2px solid black;
+    color: black;
+}
