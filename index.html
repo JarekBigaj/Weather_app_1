@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Weather app</title>
+    <script type="module" src="app.js"></script>
 </head>
 <body>
     <div id="weather_app">
-        <div class="weather_information">
+        <div>
             <div id="header">
-                <h1 class="current_city">Warszawa</h1>
+                <h1 class="current_city" id="city">Warszawa</h1>
+                <h1 class="current_hour" id="hour">9:30</h1>
             </div>
-            <div>
-                <p id="temp">20 &#8451;</p>
-                <p id="wind"><img id="wind_icon" src="/images/wind.png"> <span>23km/h</span> </p>
-                <p id="hour">godzina <span>9:30</span></p>
+            <div class="weather_information">
+                <p id="temp"><span id="temp_change">20</span> &#8451;</p>
+                <p id="wind"><img id="wind_icon" src="/images/wind.png"> <span id="wind_speed">23</span>km/h</p>
             </div>
         </div>
         <div id="footer">
             <div class="city_buttons">
-                <button>Warszawa</button>
-                <button>Kraków</button>
-                <button>Marcówka</button>
+                <button id="Warsaw">Warszawa</button>
+                <button id="Krakow">Kraków</button>
+                <button id="Marcowka">Marcówka</button>
             </div>
         </div>
     </div>

@@ -1,37 +1,51 @@
 body{
-    background-color:  hsla(14, 37%, 87%, 1);
+    background-color:  hsla(107, 36%, 95%, 1);
+    min-width: 930px
 }
-
+#header{
+    height: 50px;
+    margin-top: 0px;
+}
 #weather_app{
-    background-color: hsla(184, 36%, 60%, 1);
+    background-color:hsla(216, 49%, 22%, 1);
     margin: 20px auto 20px auto;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 3px solid ;
-    border-color: hsla(332, 16%, 52%, 1);
+    border-color: hsla(216, 49%, 22%, 1);
     width: 60%;
 }
 
 .weather_information{
-    color: hsla(0, 0%, 4%, 1);
-    margin: 50px auto;
-    text-align: center;
+    background-color: hsla(107, 36%, 95%, 1);
+    height:200px;
+
 }
 .current_city{
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: hsla(12, 100%, 97%, 1);
+    color: hsla(107, 36%, 95%, 1);
     padding-left: 8%;
     margin: auto;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 500;
+    float: left;
+}
+.current_hour{
+    background-color: hsla(216, 49%, 22%, 1);
+    text-align: right;
+    margin-right: 8%;
+    letter-spacing: 0.1em;
+    color: hsla(107, 36%, 95%, 1);
 }
 
-#temp, #wind, #hour{
-    margin: 0px auto 0px auto;
+#temp, #wind{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: auto;
     float: left;
     width: 20%;
-    padding: 50px 6% 50px 6%;
+    color: hsla(35, 87%, 49%, 1);;
 
 }
 #temp{
@@ -48,7 +62,6 @@ body{
 
 #footer{
     clear: both;
-    margin-top: 200px;
 }
 .city_buttons{
     margin: 5px auto 5px auto;
@@ -57,26 +70,27 @@ body{
 button{
     height: 50px;
     width: 25%;
-    margin: 30px;
-    border-radius: 15px;
-    border:1px solid hsla(0, 0%, 4%, 1);;
-    background-color: hsla(332, 16%, 52%, 1);
-    color: hsla(12, 100%, 97%, 1);
-    font-weight: 500;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid hsla(193, 99%, 42%, 1);
+    background-color: hsla(193, 99%, 47%, 1);
+    color: hsla(60, 28%, 17%, 1);
+    box-shadow: 1px 1px 1px 1px hsla(193, 99%, 40%, 1);
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 button:hover{
-    background-color: hsla(332, 16%, 57%, 1);;
-    color:hsla(12, 100%, 99%, 1);
-    border-bottom: 2px solid hsla(0, 0%, 4%, 1);;
+    background-color: hsla(193, 99%, 50%, 1);
+    color:hsla(60, 28%, 20%, 1);
+    border-bottom: 2px solid hsla(193, 99%, 45%, 1);
     cursor: pointer;
-    margin-bottom: 29px;
+    margin-bottom: 9px;
     font-weight: 700;
     letter-spacing: 0.07em;
 }
 button:active{
-    background-color: hsla(332, 16%, 42%, 1);
-    border: 2px solid hsla(0, 0%, 4%, 1);;
-    color: hsla(12, 100%, 87%, 1);;
+    background-color: hsla(193, 99%, 40%, 1);
+    border: 2px solid hsla(193, 99%, 38%, 1);
+    color: hsla(60, 28%, 15%, 1);
 }

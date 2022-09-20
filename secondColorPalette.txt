@@ -1,0 +1,6 @@
+/* CSS HSL */
+--cyan-process: hsla(193, 99%, 47%, 1);
+--carrot-orange: hsla(35, 87%, 49%, 1);
+--prussian-blue: hsla(216, 49%, 22%, 1);
+--mint-cream: hsla(107, 36%, 95%, 1);
+--olive-drab-7: hsla(60, 28%, 17%, 1);
