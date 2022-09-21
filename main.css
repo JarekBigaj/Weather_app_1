@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("/Fonts/Lato/Lato-Regular.ttf");
+}
 body{
     background-color:  hsla(107, 36%, 95%, 1);
-    min-width: 930px
+    min-width: 930px;
+    font-family: "Lato-Regular";
 }
 #header{
     height: 50px;
@@ -15,6 +20,7 @@ body{
     border-color: hsla(216, 49%, 22%, 1);
     box-shadow: 5px 5px 5px 5px;
     width: 60%;
+
 }
 
 .weather_information{
